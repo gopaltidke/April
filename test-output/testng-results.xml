@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Launching firefox browser]]>
+    </line>
+    <line>
+      <![CDATA[Browserlaunched sussess]]>
+    </line>
+    <line>
+      <![CDATA[Entering UserID and Password ]]>
+    </line>
+    <line>
+      <![CDATA[Entering PIN]]>
+    </line>
+    <line>
+      <![CDATA[validating userID]]>
+    </line>
+    <line>
+      <![CDATA[User ID validated suceesfully, TC is passed]]>
+    </line>
+    <line>
+      <![CDATA[Logging out...]]>
+    </line>
+    <line>
+      <![CDATA[closing browser]]>
+    </line>
+    <line>
+      <![CDATA[Launching chrome browser]]>
+    </line>
+    <line>
+      <![CDATA[Browserlaunched sussess]]>
+    </line>
+    <line>
+      <![CDATA[Entering UserID and Password ]]>
+    </line>
+    <line>
+      <![CDATA[Entering PIN]]>
+    </line>
+    <line>
+      <![CDATA[validating userID]]>
+    </line>
+    <line>
+      <![CDATA[User ID validated suceesfully, TC is passed]]>
+    </line>
+    <line>
+      <![CDATA[Logging out...]]>
+    </line>
+    <line>
+      <![CDATA[closing browser]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-03-27T09:16:31 IST" name="Suite" finished-at="2022-03-27T09:17:05 IST" duration-ms="33879">
+    <groups>
+    </groups>
+    <test started-at="2022-03-27T09:16:31 IST" name="TestFirefox" finished-at="2022-03-27T09:16:54 IST" duration-ms="23182">
+      <class name="testng_pom_ddf.Cs05KiteTestUsingTestNG">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:testng_pom_ddf.Cs05KiteTestUsingTestNG@6cf0e0ba]" started-at="2022-03-27T09:16:31 IST" name="launchBrowser" finished-at="2022-03-27T09:16:47 IST" duration-ms="16113" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Launching firefox browser]]>
+            </line>
+            <line>
+              <![CDATA[Browserlaunched sussess]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="loginToKiteApp()[pri:0, instance:testng_pom_ddf.Cs05KiteTestUsingTestNG@6cf0e0ba]" started-at="2022-03-27T09:16:47 IST" name="loginToKiteApp" finished-at="2022-03-27T09:16:50 IST" duration-ms="3572" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Entering UserID and Password ]]>
+            </line>
+            <line>
+              <![CDATA[Entering PIN]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginToKiteApp -->
+        <test-method signature="validateUserID()[pri:0, instance:testng_pom_ddf.Cs05KiteTestUsingTestNG@6cf0e0ba]" started-at="2022-03-27T09:16:50 IST" name="validateUserID" finished-at="2022-03-27T09:16:51 IST" duration-ms="441" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[validating userID]]>
+            </line>
+            <line>
+              <![CDATA[User ID validated suceesfully, TC is passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateUserID -->
+        <test-method is-config="true" signature="logoutFromKiteApp()[pri:0, instance:testng_pom_ddf.Cs05KiteTestUsingTestNG@6cf0e0ba]" started-at="2022-03-27T09:16:51 IST" name="logoutFromKiteApp" finished-at="2022-03-27T09:16:52 IST" duration-ms="1265" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logging out...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logoutFromKiteApp -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testng_pom_ddf.Cs05KiteTestUsingTestNG@6cf0e0ba]" started-at="2022-03-27T09:16:52 IST" name="closeBrowser" finished-at="2022-03-27T09:16:54 IST" duration-ms="1696" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[closing browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testng_pom_ddf.Cs05KiteTestUsingTestNG -->
+    </test> <!-- TestFirefox -->
+    <test started-at="2022-03-27T09:16:54 IST" name="TestChrome" finished-at="2022-03-27T09:17:05 IST" duration-ms="10558">
+      <class name="testng_pom_ddf.Cs05KiteTestUsingTestNG">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:testng_pom_ddf.Cs05KiteTestUsingTestNG@33d512c1]" started-at="2022-03-27T09:16:54 IST" name="launchBrowser" finished-at="2022-03-27T09:16:59 IST" duration-ms="5047" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Launching chrome browser]]>
+            </line>
+            <line>
+              <![CDATA[Browserlaunched sussess]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="loginToKiteApp()[pri:0, instance:testng_pom_ddf.Cs05KiteTestUsingTestNG@33d512c1]" started-at="2022-03-27T09:16:59 IST" name="loginToKiteApp" finished-at="2022-03-27T09:17:00 IST" duration-ms="1065" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Entering UserID and Password ]]>
+            </line>
+            <line>
+              <![CDATA[Entering PIN]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginToKiteApp -->
+        <test-method signature="validateUserID()[pri:0, instance:testng_pom_ddf.Cs05KiteTestUsingTestNG@33d512c1]" started-at="2022-03-27T09:17:00 IST" name="validateUserID" finished-at="2022-03-27T09:17:02 IST" duration-ms="1771" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[validating userID]]>
+            </line>
+            <line>
+              <![CDATA[User ID validated suceesfully, TC is passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateUserID -->
+        <test-method is-config="true" signature="logoutFromKiteApp()[pri:0, instance:testng_pom_ddf.Cs05KiteTestUsingTestNG@33d512c1]" started-at="2022-03-27T09:17:02 IST" name="logoutFromKiteApp" finished-at="2022-03-27T09:17:04 IST" duration-ms="2390" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logging out...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logoutFromKiteApp -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testng_pom_ddf.Cs05KiteTestUsingTestNG@33d512c1]" started-at="2022-03-27T09:17:04 IST" name="closeBrowser" finished-at="2022-03-27T09:17:05 IST" duration-ms="273" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[closing browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testng_pom_ddf.Cs05KiteTestUsingTestNG -->
+    </test> <!-- TestChrome -->
+  </suite> <!-- Suite -->
+</testng-results>
