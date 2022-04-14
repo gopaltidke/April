@@ -1,0 +1,16 @@
+
+
+<suite name="Suite" parallel="tests">
+ <test name="TestFirefox">
+ <parameter name="browserName" value="firefox"/>
+ <classes>
+ <class name="testng_pom_ddf.Cs05KiteTestUsingTestNG"/>
+ </classes>
+ </test> <!-- Test -->
+ <test name="TestChrome">
+ <parameter name="browserName" value="chrome"/>
+ <classes>
+ <class name="testng_pom_ddf.Cs05KiteTestUsingTestNG"/>
+ </classes>
+ </test> <!-- Test -->
+</suite> <!-- Suite -->
